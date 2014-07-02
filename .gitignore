@@ -1,0 +1,10 @@
+# exclude IntelliJ Idea project files
+.idea
+*.iml
+*.ipr
+*.iws
+*.ids
+
+*.class
+target/
+classes/

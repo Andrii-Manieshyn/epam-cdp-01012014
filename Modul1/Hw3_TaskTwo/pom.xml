@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>Hw3_TaskTwo</groupId>
+    <artifactId>Hw3_TaskTwo</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+        <org.springframework.version>3.1.0.RELEASE</org.springframework.version>
+        <jdk.version.target>1.7</jdk.version.target>
+        <jdk.version.source>1.7</jdk.version.source>
+        <junit.version>4.8.2</junit.version>
+        <guava.version>r05</guava.version>
+
+    </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>${jdk.version.source}</source>
+                    <target>${jdk.version.target}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
